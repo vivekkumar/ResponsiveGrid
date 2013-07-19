@@ -3,12 +3,19 @@
 <html>
 	<head>
 		<title>Responsive Grid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		
+		<link rel="stylesheet/less" href="./style.less" type="text/css">
+		<script type="text/javascript" src="js/less.js"></script>
 	<head>
 	
 	<body>
-		<section class="container-fluid main-wrapper">
+		<section class="container main-wrapper">
 			<header class="row-fluid">
 				<h1 class="span16"> A great site to create your own grid is coming soon!! </h1>
 				
@@ -17,14 +24,16 @@
 			</header>
 			
 			<section class="row-fluid">
+				<div class="span4">Side bar</div>
 				
+				<div class="span12">Content</div>
 			</section>
 			
 			<footer>
 			</footer>
 			
 		</section>
-
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
